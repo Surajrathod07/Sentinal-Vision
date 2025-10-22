@@ -1,5 +1,5 @@
 
-# 🚀 YOLOv5 Streamlit Deployment
+# 🚀 YOLO Streamlit 
 [![HitCount](https://hits.dwyl.com/thepbordin/YOLOv5-Streamlit-Deployment.svg?style=flat&show=unique)](http://hits.dwyl.com/thepbordin/YOLOv5-Streamlit-Deployment)
 
 
