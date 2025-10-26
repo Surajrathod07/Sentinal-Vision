@@ -1,0 +1,6 @@
+{
+  "Custom (yoloTrained.pt)": "D:\\HP\\SQG\\YOLOv5-Streamlit-Deployment\\models\\yoloTrained.pt",
+  "Drone Detector (Drone.pt)": "D:\\HP\\SQG\\YOLOv5-Streamlit-Deployment\\models\\Drone.pt",
+  "Mosquito - High (Mosquito-High.pt)": "D:\\HP\\SQG\\YOLOv5-Streamlit-Deployment\\models\\Mosquito-High.pt",
+  "Mosquito - Low (Mosquito-low.pt)": "D:\\HP\\SQG\\YOLOv5-Streamlit-Deployment\\models\\Mosquito-low.pt"
+}
