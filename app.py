@@ -655,8 +655,8 @@ def page_dashboard():
         cols = st.columns(4)
         for i,f in enumerate(outs):
             col = cols[i%4]
-            ext = os.path.splitext(f)[1].lower()
             with col:
+                ext = os.path.splitext(f)[1].lower()
                 if ext in (".png",".jpg",".jpeg"):
                     try:
                         col.image(f, caption=os.path.basename(f), width="stretch")
@@ -818,7 +818,8 @@ def infer_video_and_get_output(model_obj, model_type, video_path, conf=0.25):
     os.makedirs(out_dir, exist_ok=True)
     try:
         if model_type == "yolov8":
-            model_obj.predict(source=video_path, conf=conf, save=True, project=OUTPUT_DIR, name=name, overwrite=True)
+            # FIX: 'overwrite' -> 'exist_ok' to match Ultralytics API
+            model_obj.predict(source=video_path, conf=conf, save=True, project=OUTPUT_DIR, name=name, exist_ok=True)
         else:
             try:
                 model_obj(video_path)
