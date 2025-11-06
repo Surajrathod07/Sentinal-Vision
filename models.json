@@ -1,6 +1,8 @@
 {
-  "Custom (yoloTrained.pt)": "D:\\HP\\SQG\\YOLOv5-Streamlit-Deployment\\models\\yoloTrained.pt",
-  "Drone Detector (Drone.pt)": "D:\\HP\\SQG\\YOLOv5-Streamlit-Deployment\\models\\Drone.pt",
-  "Mosquito - High (Mosquito-High.pt)": "D:\\HP\\SQG\\YOLOv5-Streamlit-Deployment\\models\\Mosquito-High.pt",
-  "Mosquito - Low (Mosquito-low.pt)": "D:\\HP\\SQG\\YOLOv5-Streamlit-Deployment\\models\\Mosquito-low.pt"
+  "Custom (yoloTrained.pt)": "models/yoloTrained.pt",
+  "Drone Detector (Drone.pt)": "models/Drone.pt",
+  "Mosquito - High (Mosquito-High.pt)": "models/Mosquito-High.pt",
+  "Mosquito - Low (Mosquito-low.pt)": "models/Mosquito-low.pt",
+  "YOLOv8 Nano (yolov8n.onnx)": "models/yolov8n.onnx",
+  "YOLOv8 Small (yolov8s.onnx)": "models/yolov8s.onnx"
 }
